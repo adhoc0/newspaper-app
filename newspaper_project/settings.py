@@ -23,8 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'rj#k+c_xc74o3ln8(170pb9wy@us@-5a$*%h(2007qt53w(o)+'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get('I_D') 
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.environ.get('SEC_RET') 
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get('I_D')
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.environ.get('SEC_RET')
 
 SOCIAL_AUTH_FACEBOOK_KEY = ''
 SOCIAL_AUTH_FACEBOOK_SECRET = ''
@@ -173,13 +173,13 @@ USE_TZ = True
 
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  
-MAILER_EMAIL_BACKEND = EMAIL_BACKEND  
-EMAIL_HOST = 'smtp.gmail.com'  
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS') 
-EMAIL_HOST_USER = 'articlea510@gmail.com'  
-EMAIL_PORT = 587  
-EMAIL_USE_TLS = True  
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+MAILER_EMAIL_BACKEND = EMAIL_BACKEND
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+EMAIL_HOST_USER = 'aytac.yayla@gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
